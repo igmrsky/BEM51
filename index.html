@@ -57,34 +57,74 @@
     <section class="services">
         <div class="container">
             <div class="services__wrap-text">
-                <p class="services__subtitle"></p>
+                <span class="services__subtitle"></span>
                 <h2 class="services__title"></h2>
                 <p class="services__text"></p>
                 <button class="services_button"></button>
             </div>
             <div class="services__wrap-cards">
             <!-- этот создал для обертки карточек, потому что есть фон зеленый -->
-                <div class="services__cards">
-                    <img src="" alt="">
-                    <h3 class="services__cards-title">Fight for Justice</h3>
-                    <p class="services__cards-text">Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
-                    <span class="services__cards-arrow--active"></span>
-                </div>
-                <div class="services__cards">
-                    <img src="" alt="">
-                    <h3 class="services__cards-title">Best Case Strategy</h3>
-                    <p class="services__cards-text">Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
-                    <span class="services__cards-arrow--active"></span>
-                </div>
-                <div class="services__cards">
-                    <img src="" alt="">
-                    <h3 class="services__cards-title">Experienced Attorney</h3>
-                    <p class="services__cards-text">Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
-                    <span class="services__cards-arrow--active"></span>
+                <div class="services__cards-inner">
+                    <div class="services__cards">
+                        <img src="" alt="">
+                        <h3 class="services__cards-title">Fight for Justice</h3>
+                        <p class="services__cards-text">Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
+                        <span class="services__cards-arrow--active">
+                        </span>
+                    </div>
+                    <div class="services__cards">
+                        <img src="" alt="">
+                        <h3 class="services__cards-title">Best Case Strategy</h3>
+                        <p class="services__cards-text">Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
+                        <span class="services__cards-arrow--active"></span>
+                    </div>
+                    <div class="services__cards">
+                        <img src="" alt="">
+                        <h3 class="services__cards-title">Experienced Attorney</h3>
+                        <p class="services__cards-text">Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
+                        <span class="services__cards-arrow--active"></span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="legalcore">
+        <div class="container">
+            <div class="legalcore__flexbox">
+                <div class="legalcore__img">
+                    <img class="legalcore__lawyer" src="" alt="">
+                    <a href="" class="legalcore__play-link">
+                        <span class="legalcore__play-icon-wrap">
+                            <img src="" alt="" class="legalcore__play-icon">
+                        </span>
+                    </a>
+                    <!-- Теперь хочу создать контейнер для всплывающего видео после нажатия на ссылку-иконку -->
+                    <div class="legalcore__modal legalcore__modal--hidden">
+                        <div class="legalcore__modal-sidebar">
+                            <a href="" class="legalcore__modal-icon legalcore__modal-icon--active">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+                            <video controls src=""></video>
+                    </div>
+                </div>
+                <div class="legalcore__text">
+                    <span class="legalcore__subtitle">Welcome to Legalcare</span>
+                    <h2 class="legalcore__title">We Always Fight For Your Justice to Win</h2>
+                    <p class="legalcore__paragraph"></p>
+                    <div class="legalcore__button-inner">
+                        <button class="legalcore__button legalcore__button--switching"></button>
+                        <button class="legalcore__button legalcore__button--switching">
+                        </button>
+                        <button class="legalcore__button legalcore__button--switching"></button>
+                        <div class="legalcore__content legalcore__content--switched"></div>
+                    </div>
+                    <span class="legalcore__number-exp">40 Years of Experienced</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
